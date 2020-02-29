@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3214545082533463819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3214545082533463817}
+  - component: {fileID: 3214545083743994696}
+  - component: {fileID: 57334048}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3214545082533463817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214545082533463819}
+  m_LocalRotation: {x: 0, y: 0, z: 0.014023236, w: 0.9999017}
+  m_LocalPosition: {x: 259.1531, y: 166.08246, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.6070001}
+--- !u!114 &3214545083743994696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214545082533463819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1366139cb2076d64fb21b595057e926c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: SwingSword
+    clip: {fileID: 8300000, guid: 437963daa7953cb488f122f073506939, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyHit
+    clip: {fileID: 8300000, guid: 49680df622d1d0345bf92dcc6f772b8c, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnemyDie
+    clip: {fileID: 8300000, guid: b890bcb4aec4f8041b1a634068bf97bd, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Gold
+    clip: {fileID: 8300000, guid: a887f663f3bc1e140a3a2bef12a7e246, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Gem
+    clip: {fileID: 8300000, guid: 4aaf749f5cb0bf24a9b400a965e6c2bf, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Heart
+    clip: {fileID: 8300000, guid: 7a6245b4dbce83948aa508283adaf2a0, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: ca69a86c3d69ca34f883286e81dc7cda, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: PlayerHit
+    clip: {fileID: 8300000, guid: 596bddd2c16eef64f9514c74b4fed2fb, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: f4bbd07ff8fcc1844babbb1beb3658da, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Fire
+    clip: {fileID: 8300000, guid: 2abfee6639f9510438dca5ee197a7edd, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu Music
+    clip: {fileID: 8300000, guid: 9b11bfa933b6e25468fb0231204242c0, type: 3}
+    volume: 0.1
+    pitch: 0.98
+    loop: 1
+    source: {fileID: 0}
+  - name: Portal
+    clip: {fileID: 8300000, guid: 419fa1dba9947ef40a6f0ca042f7f90b, type: 3}
+    volume: 0.275
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+--- !u!114 &57334048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3214545082533463819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe9d576463f76e4ab25ed3ad4f2544c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
